@@ -1,0 +1,31 @@
+/**
+* This is a valid CSS file.
+**/
+    .dropdown-menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 10;
+      background-color: #000;
+      border-radius: 0.5rem;
+      width: 15rem;
+    }
+    .dropdown-menu li {
+      padding: 8px 16px;
+      list-style: none;
+    }
+    .dropdown-menu li:hover {
+      background-color: #000;
+      border-radius: 0.5rem;
+    }
+    /* Show the dropdown menu on hover or focus */
+    .dropdown:hover .dropdown-menu,
+    .dropdown:focus-within .dropdown-menu {
+      display: block;
+    }
+    /* Update the text color to black */
+    .dropdown-menu li a {
+      text-decoration: none;
+    }
+
